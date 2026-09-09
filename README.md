@@ -19,7 +19,7 @@ what is in it, measured rather than estimated:
 | Screens | 40 |
 | Automated tests | 363 — 295 backend integration, 55 end-to-end in headless Chromium, 13 Python |
 | Database migrations | 49, all additive |
-| Merged pull requests | 273 |
+| Merged pull requests | 296 |
 | Third-party runtime dependencies | 0 |
 
 Cloudflare Workers · Cloudflare D1 · vanilla JavaScript PWA · Tailwind · esbuild
