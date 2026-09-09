@@ -6,6 +6,8 @@ engineering process I designed myself.
 Based in Dublin. Italian and Brazilian citizen. Native Portuguese, working
 English.
 
+LinkedIn: [linkedin.com/in/andrémartinelli](https://linkedin.com/in/andrémartinelli)
+
 ---
 
 ### Nest Reef — a marine aquarium platform, live at [nestreef.com](https://nestreef.com)
