@@ -50,6 +50,32 @@ along with the reasoning behind every other design choice.
 
 ---
 
+### Autonomous multi-agent production system — private
+
+A system where dozens of AI agent sessions work concurrently on one git
+repository, coordinated through an append-only event log instead of a shared
+database or a lock. Git is the only source of truth; there is no server holding
+state.
+
+| | |
+|---|---|
+| Commits | 333 in 9 days |
+| Automation scripts | 49 |
+| Specialised agent playbooks | 43 |
+| Concurrent product lines | 10 |
+| Coordination-log entries | 307, written by 40 distinct agent roles |
+
+Python · GitHub Actions · Cloudflare Workers/R2/D1/KV · Stripe · YouTube Data API (OAuth) · Gmail & Calendar APIs · Gemini (image generation) · ElevenLabs · ffmpeg
+
+Engineering objectives, not business ones: no paid API call or publish action
+fires without an explicit human-approved checkpoint; concurrent writes from
+many agent sessions to the same append-only log are merge-conflict-safe by
+construction; every irreversible decision is written down with its reasoning,
+so any session touching the repository — including one that has never seen
+the conversation that made the decision — can pick up the context cold.
+
+---
+
 ### How I work
 
 - **I direct, review and own.** Agents write most of the code; the architecture, the review, the release decision and the consequences are mine.
