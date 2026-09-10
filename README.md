@@ -6,7 +6,7 @@ engineering process I designed myself.
 Based in Dublin. Italian and Brazilian citizen. Native Portuguese, working
 English.
 
-LinkedIn: [linkedin.com/in/andrémartinelli](https://linkedin.com/in/andrémartinelli)
+LinkedIn: [linkedin.com/in/andre-martinelli-dev](https://www.linkedin.com/in/andre-martinelli-dev)
 
 ---
 
